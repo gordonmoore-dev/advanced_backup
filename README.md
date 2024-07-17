@@ -37,7 +37,7 @@ python advanced_backup_gpt.py <source_directory> <destination_directory> [option
 - `--exclude <pattern1> <pattern2> ...`: Patterns to exclude (e.g., *.tmp)
 - `--validate-local`: Run local validation
 - `--validate-remote`: Run remote validation
-- `--batch-size <size>`: Batch size in MB (default: 10)
+- `--batch-size <size>`: Batch size in MB (default: 100)
 - `--incremental`: Run an incremental backup
 - `--resume`: Resume the most recent incomplete backup
 

@@ -22,7 +22,7 @@ pip install tqdm
 ## Basic Usage
 
 ```
-python advanced_backup_gpt.py <source_directory> <destination_directory> [options]
+python advanced_backup.py <source_directory> <destination_directory> [options]
 ```
 
 ### Arguments
@@ -45,32 +45,32 @@ python advanced_backup_gpt.py <source_directory> <destination_directory> [option
 
 1. Perform a full backup:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination
+   python advanced_backup.py /path/to/source /path/to/destination
    ```
 
 2. Perform an incremental backup:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination --incremental
+   python advanced_backup.py /path/to/source /path/to/destination --incremental
    ```
 
 3. Exclude certain file types:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination --exclude *.tmp *.log
+   python advanced_backup.py /path/to/source /path/to/destination --exclude *.tmp *.log
    ```
 
 4. Resume the most recent incomplete backup:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination --resume
+   python advanced_backup.py /path/to/source /path/to/destination --resume
    ```
 
 5. Validate a local backup:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination --validate-local
+   python advanced_backup.py /path/to/source /path/to/destination --validate-local
    ```
 
 6. Run a backup with a specific batch size:
    ```
-   python advanced_backup_gpt.py /path/to/source /path/to/destination --batch-size 50
+   python advanced_backup.py /path/to/source /path/to/destination --batch-size 50
    ```
 
 ## Notes
